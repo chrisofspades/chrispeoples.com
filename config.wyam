@@ -1,0 +1,10 @@
+#recipe Blog
+#theme CleanBlog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "chrispeoples.com";
+Settings[BlogKeys.Title] = "Chris Peoples";
+Settings[BlogKeys.Description] = "Warning!";
+Settings[BlogKeys.Intro] = "You are now entering the internet headspace of Chris Peoples. Proceed with caution.";
+
+// Add any pipeline customizations here
