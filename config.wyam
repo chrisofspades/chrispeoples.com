@@ -1,10 +1,27 @@
 #recipe Blog
-#theme CleanBlog
 
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "chrispeoples.com";
+
 Settings[BlogKeys.Title] = "Chris Peoples";
 Settings[BlogKeys.Description] = "Warning!";
-Settings[BlogKeys.Intro] = "You are now entering the internet headspace of Chris Peoples. Proceed with caution.";
+Settings[BlogKeys.Intro] = "You are now entering the internet headspace of Chris Peoples. Proceed with caution. (Just kidding, it's completely safe here.)";
+Settings[BlogKeys.PostsPath] = "blog";
+Settings["AddTagsToNav"] = false;
 
 // Add any pipeline customizations here
+
+// Overwriting the BlogArchive pipeline so I can change the title.
+Pipelines.InsertBefore(Blog.BlogArchive,
+    (IPipeline)new Wyam.Web.Pipelines.Archive(
+        "RevisedBlogArchive", // You can name the new pipeline whatever you want
+        new Wyam.Web.Pipelines.ArchiveSettings
+        {
+            Pipelines = new string[] { Blog.BlogPosts },
+            TemplateFile = ctx => "_Archive.cshtml",
+            Layout = "/_Layout.cshtml",
+            PageSize = ctx => ctx.Get(BlogKeys.ArchivePageSize, int.MaxValue),
+            Title = (doc, ctx) => "Blog",
+            RelativePath = (doc, ctx) => $"{ctx.DirectoryPath(BlogKeys.PostsPath).FullPath}"
+        }));
+Pipelines.Remove(Blog.BlogArchive);
