@@ -1,0 +1,10 @@
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+header.masthead {
+  background-color: #01218d;
+}
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0;
+}

@@ -16,18 +16,14 @@ Title: Blog
         @Html.Partial("_PostList", group);
     }
 
-    <ul class="pager">
-        <li class="previous">                
-            @if(Model.Bool(Keys.HasPreviousPage))
-            {
-                <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))"><span aria-hidden="true">&larr;</span> Newer</a>
-            }                
-        </li>
-        <li class="next">
-            @if(Model.Bool(Keys.HasNextPage))
-            {
-                <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older <span aria-hidden="true">&rarr;</span></a>
-            }
-        </li>
-    </ul>
+    <div class="clearfix">
+        @if(Model.Bool(Keys.HasPreviousPage))
+        {
+            <a class="btn btn-primary float-left" href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">Newer Posts &larr;</a>
+        }
+        @if(Model.Bool(Keys.HasNextPage))
+        {
+            <a class="btn btn-primary float-right" href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older Posts &rarr;</a>
+        }
+    </div>
 }
