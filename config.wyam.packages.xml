@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <packages>
+  <package id="Wyam.Minification" version="1.4.1" targetFramework="net462">
+    <package id="WebMarkupMin.Core" version="2.3.0" targetFramework="net462" />
+  </package>
   <package id="Wyam.Blog" version="1.4.1" targetFramework="net462">
     <package id="AngleSharp" version="0.9.9" targetFramework="net462" />
     <package id="Markdig" version="0.10.6" targetFramework="net462" />

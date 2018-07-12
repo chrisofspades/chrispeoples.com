@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic");
+html {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #333;
+}
+a:hover,
+.post-title:hover {
+  color: #00ccff;
+  transition: color 1s ease;
+}
+img {
+  max-width: 100%;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  display: block;
+  color: #666;
+  font-size: 0.5em;
+  font-weight: 400;
+  margin-top: 1rem;
+  text-decoration: inherit;
+}
+hr {
+  border: none;
+  border-bottom: 1px solid #777;
+  margin: 2rem 0;
+}
+header#main-header {
+  border: 1px solid #696969;
+  border-width: 0 0 1px 0;
+  overflow: hidden;
+  padding: 2em;
+  position: relative;
+}
+header#main-header a.navbar-brand {
+  text-decoration: none;
+}
+header#main-header:before {
+  content: "";
+  background-image: url('../img/waterpipes.png');
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+nav ul[role=navigation] {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul[role=navigation] li {
+  margin: 0 1em 0 0;
+}
+main[role=main] {
+  padding: 2em;
+}
+footer#main-footer {
+  padding: 2em;
+  text-align: center;
+}
+.list-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-flex .list-flex-item {
+  margin: 0 1em;
+}
+dl.post-meta.list-flex {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+dl.post-meta.list-flex dd,
+dl.post-meta.list-flex dt {
+  margin: 0 0.5em 0 0;
+}
+.post-preview header a {
+  text-decoration: none;
+}
+.post-list-container header h3 {
+  border-bottom: 1px solid #777;
+  padding-bottom: 0.5rem;
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 775px) {
+  .container {
+    display: grid;
+    grid-template-columns: minmax(30%, 20em) auto;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "header main" "header footer";
+    min-height: 100vh;
+  }
+  header#main-header {
+    align-self: stretch;
+    grid-area: header;
+    border-width: 0 1px 0 0;
+  }
+  nav ul[role=navigation] {
+    flex-direction: column;
+  }
+  nav ul[role=navigation] li {
+    margin: 0 0 0.5em 0;
+  }
+  main[role=main] {
+    grid-area: main;
+    max-width: 40em;
+  }
+  footer#main-footer {
+    align-self: end;
+    grid-area: footer;
+  }
+}

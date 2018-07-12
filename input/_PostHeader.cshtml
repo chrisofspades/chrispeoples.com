@@ -1,0 +1,35 @@
+@{
+    var Lead = Model.String(BlogKeys.Lead);
+    var Published = Model.Get<DateTime>(BlogKeys.Published);   
+    var Tags = Model.Get<string[]>(BlogKeys.Tags);
+}
+
+<div class="post-heading">
+    <h2>@Model.WithoutSettings.String(BlogKeys.Title)
+    @if(!string.IsNullOrWhiteSpace(Lead))
+    {
+        <small class="subheading">@Lead</small>
+    }
+    </h2>
+    <dl class="post-meta list-flex">      
+        @if (Published != default(DateTime))
+        {
+            <dt><i class="fas fa-calendar-alt" aria-hidden="true" title="Published"></i> <span class="sr-only">Published</span></dt>
+            <dd>@Published.ToLongDateString(Context)</dd>
+        }
+    
+        @if (Tags != null)
+        {
+            <dt><i class="fas fa-tags" aria-hidden="true" title="Tags"></i> <span class="sr-only">Tags</span></dt>
+                @foreach (string tag in Tags.OrderBy(x => x))
+                {
+                    IDocument tagDocument = Documents[Blog.Tags].FirstOrDefault(x => x.String(BlogKeys.Tag) == tag && x.Get<int>(Keys.CurrentPage) == 1);
+                    if(tagDocument != null)
+                    {                
+                        <dd><a href="@Context.GetLink(tagDocument)">@tag</a></dd>
+                    }
+                }
+               
+        } 
+    </dl>
+</div>

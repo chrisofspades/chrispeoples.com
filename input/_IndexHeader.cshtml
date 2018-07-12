@@ -1,10 +1,6 @@
-<div class="site-heading">
-    @if(Context.String(BlogKeys.Description) != null)
-    {
-        <h1>@Context.String(BlogKeys.Description)</h1>
-    }
+<div class="page-heading">
     @if(Context.String(BlogKeys.Intro) != null)
     {            
-        <span class="subheading">@Context.String(BlogKeys.Intro)</span>
+        <p class="subheading">@Context.String(BlogKeys.Intro)</p>
     }
 </div>

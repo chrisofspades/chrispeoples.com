@@ -4,26 +4,30 @@ Title: Blog
     Layout = "/_Layout.cshtml";
 }
 
-@{
-    foreach(IGrouping<int, IDocument> group in Model.DocumentList(Keys.PageDocuments)
-        .Where(x => x.ContainsKey(BlogKeys.Published))
-        .OrderByDescending(x => x.Get<DateTime>(BlogKeys.Published))
-        .GroupBy(x => x.Get<DateTime>(BlogKeys.Published).Year)
-        .OrderByDescending(x => x.Key))
-    {
-        <h1>@group.Key</h1>
-        <hr />
-        @Html.Partial("_PostList", group);
-    }
 
-    <div class="clearfix">
-        @if(Model.Bool(Keys.HasPreviousPage))
-        {
-            <a class="btn btn-primary float-left" href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">Newer Posts &larr;</a>
-        }
-        @if(Model.Bool(Keys.HasNextPage))
-        {
-            <a class="btn btn-primary float-right" href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older Posts &rarr;</a>
-        }
-    </div>
+
+@foreach(IGrouping<int, IDocument> group in Model.DocumentList(Keys.PageDocuments)
+    .Where(x => x.ContainsKey(BlogKeys.Published))
+    .OrderByDescending(x => x.Get<DateTime>(BlogKeys.Published))
+    .GroupBy(x => x.Get<DateTime>(BlogKeys.Published).Year)
+    .OrderByDescending(x => x.Key))
+{
+    <section class="post-list-container">
+        <header>
+            <h3>@group.Key</h3>
+        </header>
+        @Html.Partial("_PostList", group)
+    </section>
 }
+
+
+<div class="clearfix">
+    @if(Model.Bool(Keys.HasPreviousPage))
+    {
+        <a class="btn btn-primary float-left" href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">Newer Posts &larr;</a>
+    }
+    @if(Model.Bool(Keys.HasNextPage))
+    {
+        <a class="btn btn-primary float-right" href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older Posts &rarr;</a>
+    }
+</div>
