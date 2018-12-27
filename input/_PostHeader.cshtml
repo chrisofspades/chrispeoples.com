@@ -32,4 +32,8 @@
                
         } 
     </dl>
+    @if(Model.String(BlogKeys.Image) != null)
+    {
+        <img src="@Model.String(BlogKeys.Image)" alt="">        
+    }
 </div>

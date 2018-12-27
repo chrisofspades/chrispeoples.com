@@ -665,12 +665,31 @@ body {
 a {
   color: #333;
 }
-a:hover {
-  color: #000;
+a:hover,
+.post-title:hover {
+  color: #00ccff;
   transition: color 1s ease;
 }
 img {
   max-width: 100%;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  display: block;
+  color: #666;
+  font-size: 0.5em;
+  font-weight: 400;
+  margin-top: 1rem;
+  text-decoration: inherit;
+}
+hr {
+  border: none;
+  border-bottom: 1px solid #777;
+  margin: 2rem 0;
 }
 header#main-header {
   border: 1px solid #696969;
@@ -730,6 +749,13 @@ dl.post-meta.list-flex {
 dl.post-meta.list-flex dd,
 dl.post-meta.list-flex dt {
   margin: 0 0.5em 0 0;
+}
+.post-preview header a {
+  text-decoration: none;
+}
+.post-list-container header h3 {
+  border-bottom: 1px solid #777;
+  padding-bottom: 0.5rem;
 }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 775px) {
