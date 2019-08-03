@@ -3,3 +3,4 @@ output/
 packages.xml
 config.wyam.hash
 config.wyam.dll
+.DS_Store
