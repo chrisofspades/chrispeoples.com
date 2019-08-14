@@ -1,6 +1,5 @@
 Title: Summer Reading 2019
 Published: 8/14/2019
-Lead: You have read 33 out of 15 books.
 Tags: reading
 ---
 
