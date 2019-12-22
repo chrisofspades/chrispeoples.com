@@ -26,7 +26,7 @@ deploy:
   host: ftp.chrispeoples.com
   username: chrispeoples
   password:
-    secure: hLl0XSkCEf/uWYuZrsxnLA==
+    secure: IGGIy48478DBZlqBhzkBYQ==
   folder: chrispeoples.com
   application: output.zip
   beta: true
