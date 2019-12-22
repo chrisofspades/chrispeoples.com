@@ -1,6 +1,8 @@
 Title: Unpopular Positive Opinion Challenge
 Published: 12/20/2019
-Tags: movies,code
+Tags:
+  - movies
+  - code
 ---
 
 From [xkcd.com](https://xkcd.com/2184/):
