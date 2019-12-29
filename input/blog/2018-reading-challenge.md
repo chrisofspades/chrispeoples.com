@@ -6,7 +6,7 @@ Tags: reading
 ---
 Once again I completed [Goodreads Reading Challenge](https://www.goodreads.com/user_challenges/10826106). My goal for 2018 was 15 books, and I read 33! A total of 11,211 pages. I've done the challenge for the last five years and have completed my goal each year. I think it's time I raise the bar for 2019!
 
-## Books I read in 2018
+### Books I read in 2018
 
 1. *American on Purpose: The Improbable Adventures of an Unlikely Patriot*, Craig Ferguson
 2. *Origin*, Dan Brown
