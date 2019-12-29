@@ -25,7 +25,7 @@
 	<link href="@Context.GetLink("/assets/css/main.css")" rel="stylesheet">
 	}
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	
+	<link href="@Context.GetLink("/assets/vendor/highlight/styles/github-gist.css")" rel="stylesheet">
 	<!-- RSS -->
 	@if (Context.String(BlogKeys.RssPath) != null) {
 	<link type="application/rss+xml" rel="alternate" title="@Context.String(BlogKeys.Title)" href="@Context.GetLink(Context.String(BlogKeys.RssPath))" />
@@ -150,6 +150,9 @@
 	<!-- Custom scripts for this template -->
 	<script src="@Context.GetLink("/assets/js/clean-blog.min.js")"></script>
 	*@
+
+	<script src="@Context.GetLink("/assets/vendor/highlight/highlight.pack.js")"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 
 	@Html.Partial("_Scripts")
 
