@@ -3,6 +3,13 @@
   <package id="Wyam.Minification" version="2.2.4" targetFramework="netcoreapp2.1">
     <package id="WebMarkupMin.Core" version="2.3.0" targetFramework="netcoreapp2.1" />
   </package>
+  <package id="Wyam.Less" version="2.2.4" targetFramework="netcoreapp2.1">
+    <package id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.0" targetFramework="netcoreapp2.1" />
+    <package id="Microsoft.Extensions.DependencyInjection" version="2.0.0" targetFramework="netcoreapp2.1" />
+    <package id="dotless.Core" version="0.0.1" targetFramework="netcoreapp2.1" />
+    <package id="System.Reflection" version="4.3.0" targetFramework="netcoreapp2.1" />
+    <package id="ReflectionMagic" version="3.1.0" targetFramework="netcoreapp2.1" />
+  </package>
   <package id="Wyam.Blog" version="2.2.4" targetFramework="netcoreapp2.1">
     <package id="AngleSharp" version="0.9.10" targetFramework="netcoreapp2.1" />
     <package id="Markdig" version="0.15.4" targetFramework="netcoreapp2.1" />

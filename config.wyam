@@ -1,9 +1,11 @@
 #n Wyam.Minification
+#n Wyam.Less
 
 #recipe Blog
 
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "chrispeoples.com";
+Settings[Keys.LinksUseHttps] = true;
 
 Settings[BlogKeys.Title] = "Chris Peoples";
 Settings[BlogKeys.Description] = "Warning! You are now entering the internet headspace of Chris Peoples. Proceed with caution. (Just kidding, it's completely safe here.)";
@@ -14,11 +16,13 @@ Settings["AddTagsToNav"] = false;
 
 // Add any pipeline customizations here
 
-Pipelines.InsertAfter(Blog.Sass, "MinifyCss",
-    ReadFiles("assets/css/combined.css"),
+Pipelines.InsertAfter(Blog.Sass, "LessAndMinifyCss",
+    ReadFiles("assets/css/combined.less"),
+    Less(),
     MinifyCss(),
-    WriteFiles(".min.css")
+    WriteFiles(".min.css").UseWriteMetadata(false)
 );
+Pipelines.Remove(Blog.Less);
 
 // Overwriting the BlogArchive pipeline so I can change the title
 Pipelines.InsertBefore(Blog.BlogArchive,
