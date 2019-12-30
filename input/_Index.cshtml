@@ -54,6 +54,13 @@
             }             
         </article>       
     }
+
+    if(Documents[Blog.BlogPosts].Any() && Context.Bool(BlogKeys.GenerateArchive))
+    {
+        <div class="clearfix text-center">
+            <a href="@Context.GetLink(Context.String(BlogKeys.PostsPath))">More from the blog</a>
+        </div>
+    }
 }
 
 <div class="clearfix">
