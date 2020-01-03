@@ -22,7 +22,7 @@ artifacts:
 
 deploy:
   provider: FTP
-  protocol: ftp
+  protocol: sftp
   host: ftp.chrispeoples.com
   username: chrispeoples
   password:
