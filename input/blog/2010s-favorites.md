@@ -1,5 +1,9 @@
 Title: A Few of My Favorite Things of the 2010s
 Published: 12/30/2019
+Tags:
+  - books
+  - movies
+  - music
 --
 
 As the decade draws to a close, I thought I'd make a list of some of my favorite books, albums, and movies released or published in the 2010s. For when the dog bites. And the bee stings. In no particular order:
