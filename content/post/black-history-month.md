@@ -1,6 +1,8 @@
-Title: Black History Month 
-Published: 2/28/2020
-Tags: books
+---
+title: Black History Month 
+date: 2/28/2020
+tags:
+- books
 ---
 I decided to celebrate this Black History Month by reading only black authors. I even managed to mix in some non-fiction, a rarity for me. I thought it'd be fun to share my reading list along with my highlighted passages.
 

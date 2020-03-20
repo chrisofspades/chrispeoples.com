@@ -1,4 +1,6 @@
-Title: Projects
+---
+title: Projects
+menu: "main"
 ---
 ### Lawler's Law Tracker
 

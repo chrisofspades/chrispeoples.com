@@ -1,5 +1,7 @@
-Title: Now
-Image: assets/img/blue-sky-clouds-cloudscape-209786.jpg
+---
+title: "Now"
+image: "assets/img/blue-sky-clouds-cloudscape-209786.jpg"
+menu: "main"
 ---
 
 I've been inspired by [Derek Sivers](https://sivers.org/nowff) and the /now page [movement](https://nownownow.com) to share what's currently going in my life:

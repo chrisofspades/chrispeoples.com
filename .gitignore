@@ -4,3 +4,7 @@ packages.xml
 config.wyam.hash
 config.wyam.dll
 .DS_Store
+
+# Hugo generated files
+/public
+/resources/_gen/

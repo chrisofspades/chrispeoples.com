@@ -1,6 +1,8 @@
-Title: Summer Reading 2019
-Published: 8/14/2019
-Tags: books
+---
+title: Summer Reading 2019
+date: 8/14/2019
+tags: 
+- books
 ---
 
 Barack Obama shared his summer reading list (see below), and he's inspired me to share mine. Here are the books I've read so far this summer:

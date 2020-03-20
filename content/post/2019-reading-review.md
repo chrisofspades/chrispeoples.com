@@ -1,9 +1,12 @@
-Title: 2019 Reading Year in Review
-Published: 12/31/2019
+---
+title: 2019 Reading Year in Review
+date: 12/31/2019
 Lead: You have read 34 out of 21 books in 2019.
 Image: /assets/img/2019-book-collage.png
-Tags: books
---
+tags: 
+- books
+---
+
 2019 was quite a year of reading for me. I easily completed my [Goodreads Reading Challenge](https://www.goodreads.com/user_challenges/15099677) by reading 34 books, which beat my previous record of 33 books in 2018. 
 
 ### The Books
