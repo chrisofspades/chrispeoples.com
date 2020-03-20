@@ -1,7 +1,7 @@
 ---
 title: >
     #RIPMamba
-date: 1/28/2020
+date: 2020-01-28
 tags:
   - basketball
   - books

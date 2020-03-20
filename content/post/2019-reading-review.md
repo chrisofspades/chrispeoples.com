@@ -1,6 +1,6 @@
 ---
 title: 2019 Reading Year in Review
-date: 12/31/2019
+date: 2019-12-31
 Lead: You have read 34 out of 21 books in 2019.
 Image: /assets/img/2019-book-collage.png
 tags: 

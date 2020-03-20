@@ -1,6 +1,6 @@
 ---
 title: 2018 Reading Challenge
-date: 12/26/2018
+date: 2018-12-26
 Lead: You have read 33 out of 15 books.
 Image: /assets/img/2018-reading-challenge.png
 tags: 

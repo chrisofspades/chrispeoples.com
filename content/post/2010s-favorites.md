@@ -1,6 +1,6 @@
 ---
 title: A Few of My Favorite Things of the 2010s
-date: 12/30/2019
+date: 2019-12-30
 tags:
   - books
   - movies

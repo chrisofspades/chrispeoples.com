@@ -1,6 +1,6 @@
 ---
 title: Black History Month 
-date: 2/28/2020
+date: 2020-02-28
 tags:
 - books
 ---

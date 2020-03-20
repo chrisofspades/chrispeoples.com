@@ -1,6 +1,6 @@
 ---
 title: Summer Reading 2019
-date: 8/14/2019
+date: 2019-08-14
 tags: 
 - books
 ---
