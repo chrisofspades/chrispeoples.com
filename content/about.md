@@ -1,8 +1,9 @@
 ---
 title: "About"
 image: "assets/img/top_down_hawaii.jpg"
-type: "section"
-menu: "main"
+menu:
+    main:
+        weight: 100
 ---
 I'm Chris Peoples, but hopefully you knew that already. I like to build web-based tools and applications that help make peoples lives easier. My primary weapons are .NET, C#, SQL Server, HTML, CSS, and JavaScript. Take a gander at my scant few public [projects](/projects).
 

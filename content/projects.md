@@ -1,6 +1,8 @@
 ---
 title: Projects
-menu: "main"
+menu:
+    main:
+        weight: 300
 ---
 ### Lawler's Law Tracker
 
