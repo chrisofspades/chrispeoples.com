@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: "assets/img/top_down_hawaii.jpg"
+image: "/img/top_down_hawaii.jpg"
 menu:
     main:
         weight: 100

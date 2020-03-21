@@ -2,7 +2,7 @@
 title: 2019 Music Year in Review
 date: 2020-01-10
 Lead: You listened to 4,819 songs in 2019.
-Image: /assets/img/2019-album-collage.png
+Image: /img/2019-album-collage.png
 tags: 
 - music
 ---
