@@ -1,4 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "https://chrispeoples.com/"
 languageCode = "en-us"
 title = "Chris Peoples"
 theme = "noteworthy"
+paginate = 4 # Set the number of posts to show before overflowing to the next page.
+summaryLength = 50 # Configure how long the post summary should be on the homepage.
+
+# Social media icons
+[params]
+    github = "https://github.com/chrisofspades"
+    twitter = "https://twitter.com/chrisofspades"
+    stackoverflow = "https://stackoverflow.com/users/2614/chrisofspades"
+    linkedin = "http://www.linkedin.com/in/chrisofspades"
+
+[markup.goldmark.renderer]
+    unsafe = true
