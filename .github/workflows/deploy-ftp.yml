@@ -31,3 +31,4 @@ jobs:
         ftp-username: chrispeoples
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./public/
+        git-ftp-args: --insecure
