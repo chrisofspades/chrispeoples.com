@@ -1,0 +1,33 @@
+name: Deploy via FTP
+
+on:
+  push:
+    branches:
+    - master
+  schedule:
+    - cron:  '0 8 * * *'
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build site
+      run: hugo --minify
+
+    - name: FTP site
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      with:
+        ftp-server: sftp://ftp.chrispeoples.com/chrispeoples.com
+        ftp-username: chrispeoples
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./public/
