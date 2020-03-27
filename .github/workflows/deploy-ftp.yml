@@ -6,6 +6,8 @@ on:
     - master
   schedule:
     - cron:  '0 8 * * *'
+  repository_dispatch:
+    - types: manual-trigger
 
 jobs:
   Deploy:
