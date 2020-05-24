@@ -2,7 +2,6 @@
 title: "Hosting Trivia Night Using Kahoot and Zoom"
 date: 2020-05-20T16:12:07-07:00
 image: "/img/kahoot-zoom.jpg"
-draft: true
 tags:
 - kahoot
 - zoom
