@@ -5,18 +5,19 @@ Lead: You listened to 4,819 songs in 2019.
 Image: /img/2019-album-collage.png
 tags: 
 - music
+- year-in-review
 ---
 
 Music was a bit of a mixed bag for me in 2019. I listened to less music than usual because my commute was reduced drastically, so I had less time to check out new music and rediscover old favorites. However, music brought me one of proudest moments of the year when my daughter randomly said to me, "I need to listen to more Rapsody." That we all do, Daughter! Rap's *Eve* was my favorite record of the year. And with that, on to the categories:
 
-### Favorite New Releases
+## Favorite New Releases
 
 - *Eve*, Rapsody
 - *Ventura*, Anderson .Paak
 - *Jaime*, Brittany Howard
 - *May the Lord Watch*, Little Brother
 
-### Favorite New Discoveries
+## Favorite New Discoveries
 
 These artists aren't necessarily new, but they were new to me in 2019. 
 
@@ -26,7 +27,7 @@ These artists aren't necessarily new, but they were new to me in 2019.
 - Dumpstaphunk
 - Lafayette Afro Rock Band
 
-### Most Listened Artists
+## Most Listened Artists
 
 1. The Roots
 2. Kendrick Lamar
@@ -34,7 +35,7 @@ These artists aren't necessarily new, but they were new to me in 2019.
 4. Rapsody
 5. Anderson .Paak
 
-### Most Listened Albums
+## Most Listened Albums
 
 1. *May the Lord Watch*, Little Brother
 2. *Reseda Beach*, Styles of Beyond
