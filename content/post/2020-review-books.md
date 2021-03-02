@@ -1,6 +1,6 @@
 ---
 title: 2020 Year in Books
-date: 2021-12-31
+date: 2020-12-31
 draft: true
 tags: 
 - books
