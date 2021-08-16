@@ -44,7 +44,7 @@ jobs:
         uses: actions/download-artifact@v2
 
       - name: FTP site
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server: sftp://ftp.chrispeoples.com/home/chrispeoples/chrispeoples.com/
           ftp-username: chrispeoples
