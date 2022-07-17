@@ -47,9 +47,9 @@ jobs:
       - name: FTP site
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: ftp.chrispeoples.com
-          ftp-username: chrispeoples
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.chrispeoples.com
+          username: chrispeoples
+          password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           server-dir: /home/chrispeoples/chrispeoples.com/
           local-dir: artifact/
