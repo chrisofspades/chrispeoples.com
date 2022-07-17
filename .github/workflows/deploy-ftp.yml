@@ -45,12 +45,11 @@ jobs:
         uses: actions/download-artifact@v2
 
       - name: FTP site
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ftp.chrispeoples.com
           username: chrispeoples
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          server-dir: /home/chrispeoples/chrispeoples.com/
-          local-dir: artifact/
-          git-ftp-args: --insecure --all
+          remote_path: '/home/chrispeoples/chrispeoples.com/'
+          local_path: './artifact/*'
+          
