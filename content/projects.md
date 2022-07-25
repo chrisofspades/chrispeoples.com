@@ -4,15 +4,21 @@ menu:
     main:
         weight: 300
 ---
+### Wordle Leaderboard
+
+- [Website](https://intelligent-forested-sale.glitch.me)
+
+My family got caught up in the Wordle craze just like everyone else, so my cousin and I created this leaderboard so we can compare how we're doing against one another. 
+
 ### Lawler's Law Tracker
 
-- [Website](http://lawlerslawtracker.com)
+- [Website](https://lawlerslawtracker.com)
 
 I love useless statistics, and Lawler's Law is one of the best. If you ever wanted to know how often an NBA team wins a game when it scores 100 before its opponent, now you can!
 
 ### Father Daughter Book Club
 
-- [Website](http://fatherdaughterbookclub.com)
+- [Website](https://fatherdaughterbookclub.com)
 
 A podcast about books with my daughter.
 
