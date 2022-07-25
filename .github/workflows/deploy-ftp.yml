@@ -8,6 +8,7 @@ on:
     - cron:  '0 8 * * *'
   repository_dispatch:
     types: manual-trigger
+  workflow_dispatch:
 
 jobs:
   Build:
@@ -44,10 +45,11 @@ jobs:
         uses: actions/download-artifact@v2
 
       - name: FTP site
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          ftp-server: sftp://ftp.chrispeoples.com/home/chrispeoples/chrispeoples.com/
-          ftp-username: chrispeoples
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: artifact/
-          git-ftp-args: --insecure --all
+          server: ftp.chrispeoples.com
+          username: chrispeoples
+          password: ${{ secrets.FTP_PASSWORD }}
+          remote_path: '/home/chrispeoples/chrispeoples.com/'
+          local_path: './artifact/*'
+          
