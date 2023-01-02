@@ -2,8 +2,9 @@
 title: "Migrating to Hugo"
 date: 2020-03-31T12:12:25-07:00
 tags:
-- hugo
-- wyam
+  - hugo
+  - wyam
+  - meta
 ---
 I started using a static site generator for my personal site back in 2018. I was looking for a more lightweight platform than Wordpress, and SSG's were a great alternative. Especially since they fit great into CI/CD workflows. I selected [Wyam](https://wyam.io) because it's written in C# and used Razor for it's templating syntax, which made my transition easier since I'm already familiar with both of those. Wyam served me great for two years, but development on the project has stopped in favor of a new framework, [Statiq](https://github.com/statiqdev/Statiq.Framework). Since Statiq's release is TBD, I decided to migrate to [Hugo](https://gohugo.io).
 
@@ -26,7 +27,7 @@ After my files were in their appropriate place, I worked to get the content actu
 
 The site was basically working, but still required a few more customizations for complete feature parity. My Wyam site allowed me to add a feature image to posts and pages, but Noteworthy doesn't support that out of the box. Since I already have an `image` front matter field, I just needed to override Noteworthy's `layouts/_default/single.html` template to get the image to display if it's there:
 
-```
+```html
     {{ with .Params.image }}
     <img src="{{ . }}" alt="">
     {{ end }}
