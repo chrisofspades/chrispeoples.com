@@ -1,10 +1,53 @@
+body {
+    background-color: #3d3d3d;
+    color: #e7e1e1;
+}
+
 b, strong {
-    color: #000;
+    color: #fff;
+}
+
+a {
+    color: #63bda2;
+}
+
+a:visited {
+    color: #ababab;
+}
+
+h2 {
+    a {
+        color: #f0f0f0;
+        text-decoration: none;
+        position: relative;
+        text-shadow: 0px -2px 0 #3d3d3d, 0px -1px 0 #3d3d3d, 0px 0px 0 #3d3d3d, 2px -2px 0 #3d3d3d, 2px -1px 0 #3d3d3d, 2px 0px 0 #3d3d3d, -2px -2px 0 #3d3d3d, -2px -1px 0 #3d3d3d, -2px 0px 0 #3d3d3d, 1px -2px 0 #3d3d3d, 1px -1px 0 #3d3d3d, 1px 0px 0 #3d3d3d, -1px -2px 0 #3d3d3d, -1px -1px 0 #3d3d3d, -1px 0px 0 #3d3d3d, 0px -2px 0 #3d3d3d, 0px -1px 0 #3d3d3d, 0px 0px 0 #3d3d3d;
+        box-shadow: 0 -1px 0 0 #3d3d3d inset, 0 -2px 0 0 transparent inset;
+        background-size: 1px 1em;
+        position: relative;
+        transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        &:hover {
+            box-shadow: 0 -1px 0 0 #3d3d3d inset, 0 -2px 0 0 #f0f0f0 inset;
+            transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    }
+}
+
+p code {
+    background-color: #5f5f5f;
+}
+
+table thead {
+    background-color: #5f5f5f;
+}
+
+.site-title a {
+    color: #fff;
 }
 
 .highlight p {
     display: inline;
-    background-color: lightyellow;
+    background-color: #786f28;
 }
 
 .highlight footer {
