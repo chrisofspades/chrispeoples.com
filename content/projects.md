@@ -4,6 +4,12 @@ menu:
     main:
         weight: 300
 ---
+### MarTheGamerBot
+
+- [Website](https://marthegamerbot.azurewebsites.net)
+
+A Twitch bot for my favorite streamer, MarTheGamerMom. The bot comes with a pokemon minigame, a play with viewers queue, and a Rocket League rank checker.
+
 ### Wordle Leaderboard
 
 - [Website](https://intelligent-forested-sale.glitch.me)
