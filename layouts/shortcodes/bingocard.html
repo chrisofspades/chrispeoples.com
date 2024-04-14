@@ -1,0 +1,24 @@
+{{ with .Get "url" }}
+	{{ $url := .}}
+	{{ $data := getJSON $url }}
+	<div class="bingocard">
+		{{ range $data.squares }}
+			{{ $row := . }}
+			{{ range $row }}
+				{{ $square := . }}
+				{{ $find := where $data.books "mainSquare" $square.code }}
+				{{ $book := index $find 0 }}
+					<div class="square">
+						<div class="topic">{{ $square.topic }}</div>
+						{{ if $book }}
+							<div class="book {{ if $book.hardMode }}hardMode{{ end }}">
+								<div class="cover"><img src="{{ $book.cover }}" alt="Book cover for {{ $book.title }}"></div>
+								<cite class="title">{{ $book.title }}</cite>
+								<div class="author">{{ $book.author }}</div>
+							</div>
+						{{ end }}
+					</div>
+			{{ end }}
+		{{ end }}
+	</div>
+{{ end }}

@@ -15,6 +15,10 @@ a:visited {
     color: #ababab;
 }
 
+cite {
+    font-size: 1em;
+}
+
 h2 {
     a {
         color: #f0f0f0;
@@ -72,6 +76,47 @@ ul > li > ul {
     margin-bottom: 0;
 }
 
+.list-inline {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+    &::after {
+        content: ")";
+    }
+
+    &::before {
+        content: "(";
+    }
+
+    li { 
+        display: inline-block;
+
+        &::after {
+            content: ", "
+        }
+
+        &:last-child::after {
+            content: "";
+        }
+    }
+}
+
+.list-dash {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+        margin: 0;
+        padding: 0;
+
+        &::before {
+            content: "-";
+        }
+    }
+}
+
 dl:after {
     content:"";
     display:table;
@@ -120,4 +165,58 @@ dt + dt + dd {
 }
 dt + dt + dd + dt {
     margin-top: 2em;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.bingocard {
+    background-color: #63bda2;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(calc(20% - 10px), 1fr));
+    gap: 10px;
+    font-size: .75em;
+    line-height: 1.05;
+    margin: 0 0 1em;
+    padding: 10px;
+
+    .square {
+        border: 1px solid #157055;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .topic {
+        background-color: #157055;
+        border-radius: 7px 7px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+        min-height: 40px;
+        padding: 5px;
+    }
+
+    .book {
+        color: #3d3d3d;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    img {
+        height: 120px;
+    }
+
+    .hardMode img {
+        border: 2px ridge gold;
+    }
+}
+
+.bingolist {
+    font-size: .75em;
+    line-height: 1.05;
 }

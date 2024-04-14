@@ -1,0 +1,69 @@
+{{ with .Get "url" }}
+	{{ $url := .}}
+	{{ $data := getJSON $url }}
+    {{ $squares := first 0 $data.squares }}
+    {{ range $data.squares }}
+        {{ $squares = $squares | append . }}
+    {{ end }}
+
+    {{/*
+	<!-- <ol class="bingolist">
+		{{ range $data.books }}
+            {{ $book := . }}
+            <li>
+                <cite class="title">{{ $book.title }}</cite>
+                by <span class="author">{{ $book.author }}</span>
+                <ul class="list-inline">
+                    {{ range $book.allSquares }}
+                        {{ $find := where $squares "code" . }}
+                        {{ $square := index $find 0 }}
+                        <li>
+                            {{ if eq $square.code $book.mainSquare }}
+                                <u>{{ $square.topic  }}</u>
+                            {{ else }}
+                                {{ $square.topic  }}
+                            {{ end }}
+                        </li>
+                    {{ end }}
+                </ul>
+            </li>
+        {{ end }}
+    </ol> -->
+    */}}
+
+    <table class="bingolist">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Finished</th>
+                <th>Squares</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range $data.books }}
+            {{ $book := . }}
+                <tr>
+                    <td><cite class="title">{{ $book.title }}</cite></td>
+                    <td><span class="author">{{ $book.author }}</span></td>
+                    <td class="nowrap">{{ $book.dateFinished }}</td>
+                    <td>
+                        <ul class="list-dash">
+                            {{ range $book.allSquares }}
+                                {{ $find := where $squares "code" . }}
+                                {{ $square := index $find 0 }}
+                                <li>
+                                    {{ if eq $square.code $book.mainSquare }}
+                                        <u>{{ $square.topic  }}</u>
+                                    {{ else }}
+                                        {{ $square.topic  }}
+                                    {{ end }}
+                                </li>
+                            {{ end }}
+                        </ul>
+                    </td>
+                </li>
+            {{ end }}   
+        </tbody>
+    </table>
+{{ end }}

@@ -1,0 +1,454 @@
+{
+    "squares": [
+        [
+            {
+                "code": "twt",
+                "topic":"Title with a Title",
+                "description": "",
+                "hardMode": "Not a title of royalty."
+            },
+            {
+                "code": "super",
+                "topic":"Superheroes",
+                "description": "",
+                "hardMode": "Not related to DC or Marvel."
+            },
+            {
+                "code": "bottom",
+                "topic": "Bottom of the TBR",
+                "description": "",
+                "hardMode": ""
+            },
+            {
+                "code": "mrlf",
+                "topic": "Magical Realism or Literary Fantasy",
+                "description": "",
+                "hardMode": "Not one of the thirty books in the linked thread."
+            },
+            {
+                "code": "ya",
+                "topic": "Young Adult",
+                "description": "",
+                "hardMode": "Published in the last 5 years."
+            }
+        ],
+        [
+            {
+                "code": "jobs",
+                "topic": "Mundane Jobs",
+                "description": "",
+                "hardMode": "Does not take place on Earth."
+            },
+            {
+                "code": "2000",
+                "topic": "Published Before 2000",
+                "description": "",
+                "hardMode": "Not in the top 30 of r/Fantasy's Best of 2023 List."
+            },
+            {
+                "code": "ad",
+                "topic": "Angels and Demons",
+                "description": "",
+                "hardMode": "The protagonist is an angel or demon."
+            },
+            {
+                "code": "shorts",
+                "topic": "Five SFF Short Stories",
+                "description": "",
+                "hardMode": "Read an entire SFF anthology or collection."
+            },
+            {
+                "code": "hor",
+                "topic": "Horror",
+                "description": "",
+                "hardMode": "Not Stephen King or H. P. Lovecraft."
+            }
+        ],
+        [
+            {
+                "code": "self",
+                "topic": "Self-Published OR Indie Publisher",
+                "description": "",
+                "hardMode": "Self-published and has fewer than 100 ratings on Goodreads, OR an indie publisher that has done an AMA with r/Fantasy."
+            },
+            {
+                "code": "mideast",
+                "topic": "Set in the Middle East/Middle Eastern SFF",
+                "description": "",
+                "hardMode": "Author is of Middle Eastern heritage."
+            },
+            {
+                "code": "2023",
+                "topic": "Published in 2023",
+                "description": "",
+                "hardMode": "It's also a debut novel--as in it's the author's first published novel."
+            },
+            {
+                "code": "multi",
+                "topic": "Multiverse and Alternate Realities",
+                "description": "",
+                "hardMode": "Characters do not walk through a literal door in order to get to another world."
+            },
+            {
+                "code": "poc",
+                "topic": "POC Author",
+                "description": "",
+                "hardMode": "Novel takes place in a futuristic, sci-fi world."
+            }
+        ],
+        [
+            {
+                "code": "bookclub",
+                "topic": "Book Club OR Readalong Book",
+                "description": "",
+                "hardMode": "Must read a current selection of either a book club or readalong and participate in the discussion."
+            },
+            {
+                "code": "novella",
+                "topic": "Novella",
+                "description": "",
+                "hardMode": "Novella is NOT published by Tordotcom Publishing."
+            },
+            {
+                "code": "beast",
+                "topic": "Mythical Beasts",
+                "description": "",
+                "hardMode": "No dragons or dragon-like creatures (e.g. wyverns, Draccus in Kingkiller)."
+            },
+            {
+                "code": "elem",
+                "topic": "Elemental Magic",
+                "description": "",
+                "hardMode": "Not V. E. Schwab's Shades of Magic series or Jim Butcher's Codex Alera series."
+            },
+            {
+                "code": "myth",
+                "topic": "Myths and Retellings",
+                "description": "",
+                "hardMode": "Not Greek or Roman mythology."
+            }
+        ],
+        [
+            {
+                "code": "queer",
+                "topic": "Queernorm Setting",
+                "description": "",
+                "hardMode": "Not a futuristic setting. Takes place in a time akin to ours, in the past, or in a fantasy world that has no science fiction elements."
+            },
+            {
+                "code": "coast",
+                "topic": "Coastal or Island Setting",
+                "description": "",
+                "hardMode": "The book also features sea-faring."
+            },
+            {
+                "code": "druid",
+                "topic": "Druids",
+                "description": "",
+                "hardMode": "Not The Iron Druid Chronicles by Kevin Hearne."
+            },
+            {
+                "code": "bot",
+                "topic": "Featuring Robots",
+                "description": "",
+                "hardMode": "Robot is the protagonist."
+            },
+            {
+                "code": "sequel",
+                "topic": "Sequel",
+                "description": "",
+                "hardMode": "Book 3 or on in the series."
+            }
+        ]
+    ],
+    "books": [
+        {
+          "cover": "https://cdn.thestorygraph.com/x8b0fp7wotfpwn3fb5itx58ei0lb",
+          "title": "The Ones Who Walk Away from Omelas",
+          "author": "Ursula K. Le Guin",
+          "hardMode": false,
+          "allSquares": ["shorts"],
+          "mainSquare": "",
+          "dateFinished": "2023-04-01"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/ff2rssqfaexrs888x2s9c7ix584x",
+          "title": "Network Effect",
+          "author": "Martha Wells",
+          "hardMode": false,
+          "allSquares": ["queer", "bot", "sequel"],
+          "mainSquare": "",
+          "dateFinished": "2023-04-19"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/ro16qpvz948nvlu3cm4g6cat0zhg",
+          "title": "This Is How You Lose the Time War",
+          "author": "Amal El-Mohtar",
+          "hardMode": false,
+          "allSquares": ["multi", "poc", "bookclub", "novella", "queer"],
+          "mainSquare": "bookclub",
+          "dateFinished": "2023-05-07"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/1ol3k5rp81k2yfcp5dkn7mhfe1el",
+          "title": "Time and Again",
+          "author": "Clifford D. Simak",
+          "hardMode": false,
+          "allSquares": ["multi", "2000"],
+          "mainSquare": "2000",
+          "dateFinished": "2023-05-27"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/268tjxj8nq6mlda98prgoz8lkmys",
+          "title": "Death's End",
+          "author": "Cixin Liu",
+          "hardMode": true,
+          "allSquares": ["poc", "bot", "sequel"],
+          "mainSquare": "sequel",
+          "dateFinished": "2023-06-19"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/k6slnwlb169hwl4axlejr3jv2uyp",
+          "title": "Doomsday Book",
+          "author": "Connie Willis",
+          "hardMode": true,
+          "allSquares": ["multi"],
+          "mainSquare": "multi",
+          "dateFinished": "2023-07-03"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/hmg2aqhezd3eqq9xjwi0xut05djy",
+          "title": "2001: A Space Odyssey",
+          "author": "Arthur C. Clarke",
+          "hardMode": false,
+          "allSquares": ["bottom", "bot", "2000"],
+          "mainSquare": "bottom",
+          "dateFinished": "2023-07-11"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/35yzuvw984tu5iu7egrqtecqpkj7",
+          "title": "The Space Between Worlds",
+          "author": "Micaiah Johnson",
+          "hardMode": false,
+          "allSquares": ["multi", "poc", "queer"],
+          "mainSquare": "queer",
+          "dateFinished": "2023-08-02"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/yza4ukgozap8tmsd0m8w9zhmvaek",
+          "title": "The Rosetta Mind: Book Two of the Rosetta Series",
+          "author": "Claire McCague",
+          "hardMode": true,
+          "allSquares": ["jobs", "self", "sequel"],
+          "mainSquare": "self",
+          "dateFinished": "2023-08-08"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/vhbym0e9nduegv92r5t8674xdy89",
+          "title": "Avatar, the Last Airbender: The Legacy of Yangchen",
+          "author": "F.C. Yee",
+          "hardMode": true,
+          "allSquares": ["ya", "2023", "poc", "beast", "elem", "queer", "sequel"],
+          "mainSquare": "elem",
+          "dateFinished": "2023-08-15"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/jevpjd2l0t2lechtc7q92095mr29",
+          "title": "Fugitive Telemetry",
+          "author": "Martha Wells",
+          "hardMode": false,
+          "allSquares": ["novella", "bot", "queer", "sequel"],
+          "mainSquare": "novella",
+          "dateFinished": "2023-08-17"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/ngq5pu4w17me8kve7syrammppd52",
+          "title": "The Regional Office is Under Attack!",
+          "author": "Manuel Gonzales",
+          "hardMode": false,
+          "allSquares": ["super", "poc", "bot"],
+          "mainSquare": "bot",
+          "dateFinished": "2023-09-15"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/h5j6adrfpchsdi4bhv6iqscr7rqr",
+          "title": "Reboot",
+          "author": "Amy Tintera",
+          "hardMode": false,
+          "allSquares": ["ya", "poc"],
+          "mainSquare": "",
+          "dateFinished": "2023-09-29"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/euaxp31ciaev0z0g15ah9xaipyh6",
+          "title": "Rebel",
+          "author": "Amy Tintera",
+          "hardMode": false,
+          "allSquares": ["ya", "poc"],
+          "mainSquare": "ya",
+          "dateFinished": "2023-10-04"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/yt3p8837jk907wieneilxtlos04w",
+          "title": "Dracula",
+          "author": "Bram Stoker",
+          "hardMode": false,
+          "allSquares": ["hor", "myth"],
+          "mainSquare": "hor",
+          "dateFinished": "2023-10-10"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/qcl67ym1uai0u8ksvap2ha9ak1x7",
+          "title": "The Sentence",
+          "author": "Louise Erdrich",
+          "hardMode": true,
+          "allSquares": ["mrlf"],
+          "mainSquare": "mrlf",
+          "dateFinished": "2023-10-30"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/j77dghk7pdk38mxwnyr24wzjsz9v",
+          "title": "House of Gold",
+          "author": "C.T. Rwizi",
+          "hardMode": true,
+          "allSquares": ["2023", "poc", "queer", "coast", "bot"],
+          "mainSquare": "2023",
+          "dateFinished": "2023-11-07"
+        },
+        {
+          "cover": "https://assets.thestorygraph.com/assets/placeholder-cover-2a45d917f8f8061888e77f7aae688f59aacb0ece1262c264eaa3ca9f1dfd07e8.jpg",
+          "title": "Standard Loneliness Package",
+          "author": "Charles Yu",
+          "hardMode": false,
+          "allSquares": ["shorts"],
+          "mainSquare": "",
+          "dateFinished": "2023-11-08"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/gqc2va68pgqh6j9pn3yp09rdb53j",
+          "title": "Hard-Boiled Wonderland and the End of the World",
+          "author": "Haruki Murakami",
+          "hardMode": true,
+          "allSquares": ["poc", "beast"],
+          "mainSquare": "beast",
+          "dateFinished": "2023-11-28"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/f9i9pgg0n4m3zsxsn64b6qchteln",
+          "title": "Akata Woman",
+          "author": "Nnedi Okorafor",
+          "hardMode": true,
+          "allSquares": ["ya", "multi", "poc", "sequel"],
+          "mainSquare": "",
+          "dateFinished": "2023-12-11"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/9pmww7xyo9b05fpp5uqybiqfkzc0",
+          "title": "We Could Be Heroes",
+          "author": "Mike Chen",
+          "hardMode": true,
+          "allSquares": ["super", "jobs", "poc", "queer"],
+          "mainSquare": "super",
+          "dateFinished": "2023-12-20"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/5wqghusdfsapupsvjes0qwtr090l",
+          "title": "Just Out of Jupiter's Reach",
+          "author": "Nnedi Okorafor",
+          "hardMode": false,
+          "allSquares": ["shorts", "poc"],
+          "mainSquare": "",
+          "dateFinished": "2024-01-10"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/shk0jl7llcarz972lsnyoxp6v8l4",
+          "title": "How High We Go in the Dark",
+          "author": "Sequoia Nagamatsu",
+          "hardMode": true,
+          "allSquares": ["jobs", "poc"],
+          "mainSquare": "jobs",
+          "dateFinished": "2024-01-19"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/smkm5dtwgk4jk9ul8avpj6xx8bju",
+          "title": "Trail of Lightning",
+          "author": "Rebecca Roanhorse",
+          "hardMode": true,
+          "allSquares": ["poc", "bookclub", "elem", "myth"],
+          "mainSquare": "myth",
+          "dateFinished": "2024-01-27"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/5i4y77ual28iizbiq5bsr667oc0z",
+          "title": "System Collapse",
+          "author": "Martha Wells",
+          "hardMode": false,
+          "allSquares": ["2023", "queer", "bot", "sequel"],
+          "mainSquare": "",
+          "dateFinished": "2024-02-04"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/zk9kl0ew3lpaxohii0ne9i3sy838",
+          "title": "Rosewater",
+          "author": "Tade Thompson",
+          "hardMode": true,
+          "allSquares": ["multi", "poc"],
+          "mainSquare": "poc",
+          "dateFinished": "2024-02-14"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/recg2di8zav5l0rhrmbcbsh8380o",
+          "title": "2043... a Merman I Should Turn to Be",
+          "author": "Nisi Shawl",
+          "hardMode": false,
+          "allSquares": ["shorts", "poc"],
+          "mainSquare": "",
+          "dateFinished": "2024-02-15"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/gu0kpay0kwmrpwcfzecnyhlng1in",
+          "title": "The Visit",
+          "author": "Chimamanda Ngozi Adichie",
+          "hardMode": false,
+          "allSquares": ["shorts", "poc"],
+          "mainSquare": "shorts",
+          "dateFinished": "2024-02-24"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/olfrizwr5161gccy0g8rr6abrh08",
+          "title": "Nova",
+          "author": "Samuel R. Delany",
+          "hardMode": false,
+          "allSquares": ["poc"],
+          "mainSquare": "",
+          "dateFinished": "2024-03-07"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/13qysg6qalexzx7f8r1letxcmc9a",
+          "title": "Galatea",
+          "author": "Madeline Miller",
+          "hardMode": false,
+          "allSquares": ["shorts"],
+          "mainSquare": "",
+          "dateFinished": "2024-03-08"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/d46tvxjekj4s0v1492tnbl8ql3au",
+          "title": "A Wizard of Earthsea",
+          "author": "Ursula K. Le Guin",
+          "hardMode": true,
+          "allSquares": ["twt", "ya", "bookclub", "beast", "coast"],
+          "mainSquare": "twt",
+          "dateFinished": "2024-03-16"
+        },
+        {
+          "cover": "https://cdn.thestorygraph.com/vfo1b0e38m96czdviub35wxo2vyb",
+          "title": "Lagoon",
+          "author": "Nnedi Okorafor",
+          "hardMode": true,
+          "allSquares": ["poc", "myth", "coast"],
+          "mainSquare": "coast",
+          "dateFinished": "2024-03-23"
+        }
+      ]
+}
