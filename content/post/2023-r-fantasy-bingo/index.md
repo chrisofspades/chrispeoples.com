@@ -4,7 +4,6 @@ date: 2024-04-13T08:46:46-07:00
 image: /img/2023-r-fantasy-bingo-header.png
 tags: 
 - books
-draft: true
 ---
 
 Every year, the r/Fantasy subreddit <a href="https://www.reddit.com/r/Fantasy/comments/128oxqt/official_rfantasy_2023_book_bingo_challenge/" target="_blank">issues a challenge</a>: complete a <a href="/img/2023-r-fantasy-bingo-card.png" target="_blank">bingo card</a> filled with various science fiction and fantasy topics on it. As you can see, the topics are varied, but that's the point. 
