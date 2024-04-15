@@ -220,3 +220,19 @@ dt + dt + dd + dt {
     font-size: .75em;
     line-height: 1.05;
 }
+
+// Goodreads widgets
+[class^="gr_custom_container"] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+
+    h2 {
+        grid-column: 1 / -1;
+    }
+
+    // Hide goodreads logo
+    center {
+        display: none;
+    }
+}
