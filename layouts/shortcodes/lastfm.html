@@ -1,0 +1,28 @@
+{{ $apikey := getenv "HUGO_LASTFM_APIKEY" }}
+{{ $url := $apikey | printf "%s%s" "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=christortion&format=json&limit=6&api_key=" | printf "%s" }}
+{{ $data := getJSON $url }}
+{{ if $data }}
+    <ul class="lastfm">
+        {{ range $data.recenttracks.track }}
+            {{ $track := . }}
+            {{ $image := where $track.image "size" "large" }}
+            {{ $dateString := index $track.date "#text" }}
+            {{ $dateArr := split $dateString ", " }}
+            {{ $date := index $dateArr 0 | time.AsTime | time.Format "2006-01-02" }}
+            {{ $dateArr = slice $date (index $dateArr 1) }}
+            {{ $timeArr := slice (index $dateArr 1) ":00Z" }}
+            {{ $timeString := delimit $timeArr "" }}
+            {{ $dateArr = slice $date $timeString }}
+            {{ $dateTimeString := delimit $dateArr "T" }}
+            {{ $dateTime := string $dateTimeString | time.AsTime }}
+            <li>
+                <div class="track">
+                    <img src="{{ index (index $image 0) "#text" }}" alt="" class="cover">
+                    <cite class="title">{{ $track.name }}</cite>
+                    <div class="artist">{{ index $track.artist "#text" }} </div>
+                    <time datetime="{{ $dateTimeString }}">{{ $dateTime.Local.Format "2006-01-02 03:04 PM" }}</time>
+                </div>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}

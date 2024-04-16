@@ -24,9 +24,13 @@ jobs:
       with:
         hugo-version: '0.101.0'
         extended: true
+      env:
+        HUGO_LASTFM_APIKEY: ${{ secrets.HUGO_LASTFM_APIKEY }}
 
     - name: Build site
       run: hugo --minify
+      env:
+        HUGO_LASTFM_APIKEY: ${{ secrets.HUGO_LASTFM_APIKEY }}
       
     - name: Upload build files
       uses: actions/upload-artifact@v2
