@@ -20,7 +20,7 @@
                     <img src="{{ index (index $image 0) "#text" }}" alt="" class="cover">
                     <cite class="title">{{ $track.name }}</cite>
                     <div class="artist">{{ index $track.artist "#text" }} </div>
-                    <time datetime="{{ $dateTimeString }}">{{ $dateTime.Local.Format "2006-01-02 03:04 PM" }}</time>
+                    <time datetime="{{ $dateTimeString }}" data-localize>{{ $dateTime.Local.Format "2006-01-02 03:04 PM" }}</time>
                 </div>
             </li>
         {{ end }}
