@@ -1,13 +1,12 @@
 ---
 title: "About"
-image: "/img/top_down_hawaii.jpg"
 menu:
     main:
         weight: 100
 ---
 I'm Chris Peoples, but hopefully you knew that already. I like to build web-based tools and applications that help make peoples lives easier. My primary weapons are .NET, C#, SQL Server, HTML, CSS, and JavaScript. Take a gander at my scant few public [projects](/projects).
 
-When I'm not working, I'm a parent, [podcaster](http://fatherdaughterbookclub.com), poker player, and alliteration afficianado. I also enjoy [reading](https://www.goodreads.com/chrisofspades), cheering for the [Sparks](http://sparks.wnba.com) and Lakers, and occasionally lacing them up myself.
+When I'm not working, I'm a parent, [former podcaster](http://fatherdaughterbookclub.com), poker player, and alliteration afficianado. I also enjoy [reading](/tags/books), cheering for the [Sparks](http://sparks.wnba.com) and Lakers, and occasionally lacing them up myself.
 
 
 <ul class="list-unstyled fa-ul">
