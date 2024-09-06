@@ -33,7 +33,7 @@ jobs:
         HUGO_LASTFM_APIKEY: ${{ secrets.HUGO_LASTFM_APIKEY }}
       
     - name: Upload build files
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         path: public/
 
