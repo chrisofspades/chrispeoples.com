@@ -249,3 +249,30 @@ dt + dt + dd + dt {
         display: block;
     }
 }
+
+.chart {
+    align-items: center;
+    display: grid;
+    gap: 0.25rem 0;
+    grid-auto-columns: 1fr;
+    grid-template-columns: auto;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        align-items: center;
+        background: #157055;
+        display: flex;
+        gap: 0 0.25rem;
+        justify-content: space-between;
+        padding: 0.25rem 0.5rem;
+
+        b {
+            font-weight: bold;
+        }
+    }
+}
+
+details {
+    cursor: pointer;
+}
