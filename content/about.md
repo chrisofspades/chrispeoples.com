@@ -10,7 +10,6 @@ When I'm not working, I'm a parent, [former podcaster](http://fatherdaughterbook
 
 
 <ul class="list-unstyled fa-ul">
-    <li><a href="https://twitter.com/chrisofspades"><i class="fab fa-twitter"></i> Twitter (chrisofspades)</a></li>
     <li><a href="https://github.com/chrisofspades"><i class="fab fa-github"></i> GitHub (chrisofspades)</a></li>
     <li><a href="https://stackoverflow.com/users/2614/chrisofspades"><i class="fab fa-stack-overflow"></i> Stack Overflow (chrisofspades)</a></li>
     <li><a href="http://www.linkedin.com/in/chrisofspades"><i class="fab fa-linkedin"></i> LinkedIn</a></li>

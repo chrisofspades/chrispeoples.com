@@ -8,7 +8,6 @@ summaryLength = 50 # Configure how long the post summary should be on the homepa
 # Social media icons
 [params]
     github = "https://github.com/chrisofspades"
-    twitter = "https://twitter.com/chrisofspades"
     stackoverflow = "https://stackoverflow.com/users/2614/chrisofspades"
     linkedin = "http://www.linkedin.com/in/chrisofspades"
 
