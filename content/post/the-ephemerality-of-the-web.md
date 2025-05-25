@@ -1,7 +1,6 @@
 ---
 title: "The Ephemerality of the Web"
 date: 2025-05-24T16:17:59-07:00
-draft: true
 ---
 
 This week, two services that I've used for years announced that they will enter the web's graveyard: [Pocket](https://support.mozilla.org/en-US/kb/future-of-pocket) and [Glitch](https://blog.glitch.com/post/changes-are-coming-to-glitch/). 
