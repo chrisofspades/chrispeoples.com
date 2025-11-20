@@ -276,3 +276,19 @@ dt + dt + dd + dt {
 details {
     cursor: pointer;
 }
+
+article.link-post {
+    h1:has(a),
+    h2:has(a) {
+        margin-bottom: 0.25em;
+    }
+
+    a[href^='http']::after {
+        content: "\2197";
+        padding-left: 5px;
+    }
+
+    footer {
+        text-align: left;
+    }
+}

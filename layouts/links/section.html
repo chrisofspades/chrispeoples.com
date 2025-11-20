@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+    {{ range .Pages }}
+        <article class="link-post">
+            <h2><a href="{{ .Params.target }}">{{ .LinkTitle }}</a></h2>
+            <small>{{ .Params.domain }}</small>
+            <p>{{ .Content }}</p>
+            <footer>
+                {{ if .Date }}
+                    <a href="{{ .RelPermalink }}">
+                        <time>{{ .Date.Format "2006-01-02" }}</time>
+                    </a>
+                {{ end }}
+            
+                {{if .Params.tags}}
+                    {{ range .Params.tags }}
+                        <a class="tag" href="/tags/{{ . | urlize }}">#{{.}}</a>
+                    {{ end }}
+                {{ end }}
+
+                {{ if .Params.via }} 
+                    <a href="{{ .Params.via }}">(via)</a>
+                {{ end }}
+                <hr class="footer-divider">
+            </footer>
+        </article>       
+    {{ end }}
+{{ end }}
