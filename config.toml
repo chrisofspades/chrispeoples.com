@@ -5,6 +5,7 @@ theme = "noteworthy"
 paginate = 4 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 50 # Configure how long the post summary should be on the homepage.
 mainSections = ['post', 'link']
+enableGitInfo = true
 
 # Social media icons
 [params]
@@ -14,3 +15,6 @@ mainSections = ['post', 'link']
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[frontmatter]
+    lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']

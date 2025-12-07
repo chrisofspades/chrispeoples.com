@@ -1,39 +1,47 @@
 {{ define "main" }}
-<h1 class="post-title">{{ .Title }}</h1>
-    {{ if .Date }}
-    <time>{{ .Date.Format "January 2, 2006" }}</time>
-    {{ end }}
+    <article>
+        <h1 class="post-title">{{ .Title }}</h1>
 
-    {{ with .Params.image }}
-    <img src="{{ . }}" alt="">
-    {{ end }}
-
-
-    <div>
-        <p>
-        {{ .Content }}
-        </p>
-    </div>
-    {{ template "_internal/disqus.html" . }}
-
-    {{ if .Site.Params.enableKofi }}
-
-        <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-        <script type='text/javascript'>
-            const kofiId = '{{ .Site.Params.Kofi }}';
-            kofiwidget2.init('Support Me on Ko-fi', '#29abe0', kofiId);
-            kofiwidget2.draw();
-        </script> 
-
-    {{ end }}
-
-    <div class="page-footer">
-        {{if .Params.tags}}
-        <hr class="footer-divider">
-        {{ range .Params.tags }}
-            <a class="tag" href="/tags/{{ . | urlize }}">#{{.}}</a>
+        {{ if .Date }}
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
         {{ end }}
-      {{ end }}
-    </div>
 
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="">
+        {{ end }}
+
+
+        <div>
+            <p>
+            {{ .Content }}
+            </p>
+        </div>
+        {{ template "_internal/disqus.html" . }}
+
+        {{ if .Site.Params.enableKofi }}
+
+            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
+            <script type='text/javascript'>
+                const kofiId = '{{ .Site.Params.Kofi }}';
+                kofiwidget2.init('Support Me on Ko-fi', '#29abe0', kofiId);
+                kofiwidget2.draw();
+            </script> 
+
+        {{ end }}
+
+        <footer class="page-footer">
+            <hr class="footer-divider">
+            {{if .Params.tags}}
+                <ul class="list-horizontal tags">
+                    {{ range .Params.tags }}
+                        <li><a class="tag" href="/tags/{{ . | urlize }}">#{{.}}</a></li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+
+            <div>
+                <small>Last modified: {{ .Lastmod.Format "2006-01-02 03:04 PM MST" }} </small>
+            </div>
+        </footer>
+    </article>
 {{end}}
