@@ -9,7 +9,7 @@ tags:
 ## Cube Notation
 Cube notation describes which portion of the cube to move, and in which direction. Ruwix has a great [tutorial](https://ruwix.com/the-rubiks-cube/notation/) with all of the different notations. Here are the ones needed for Giovanni's method.
 
-<dl>
+<dl class="list-grid">
 <dt>R</dt>
 <dd>Rotate the R face 90 degrees clockwise</dd>
 <dt>R'</dt>
