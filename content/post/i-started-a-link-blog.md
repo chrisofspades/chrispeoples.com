@@ -12,5 +12,5 @@ I'm actually pretty excited and hopeful about it. Currently I'm manually managin
 ## Future 
 
 - [ ] RSS feed
-- [ ] Automation through Raindrop's API
+- [x] Automation through Raindrop's API
 - [ ] Images?
