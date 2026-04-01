@@ -15,6 +15,10 @@ if ( ($response.result) -and ($response.count -gt 0) )
 
     
 }
+else
+{
+    Write-Host "No new raindrops found after $lastupdated."
+}
 
 foreach($raindrop in $response.items)
 {
