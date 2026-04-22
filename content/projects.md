@@ -18,9 +18,9 @@ A Twitch bot for my favorite streamer, MarTheGamerMom. The bot comes with a poke
 
 ### Wordle Leaderboard
 
-- [Website](https://intelligent-forested-sale.glitch.me)
+- [Website](https://wordleleaderboard.azurewebsites.net)
 
-My family got caught up in the Wordle craze just like everyone else, so my cousin and I created this leaderboard so we can compare how we're doing against one another. 
+My family got caught up in the Wordle craze just like everyone else, so my cousin and I created this leaderboard so we can compare how we're doing against one another. Originally a React/NodeJS site, rewritten in Blazor after Glitch shut down.
 
 ### Father Daughter Book Club
 
