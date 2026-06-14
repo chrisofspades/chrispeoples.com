@@ -18,35 +18,51 @@ In 2026, choose 6 books that have titles that contain:
 
 ## Six/6 ❓
 
-Titles for this category need to include the word “six” or number “6” somewhere in the title, even if they are part of another word or number.
+>Titles for this category need to include the word “six” or number “6” somewhere in the title, even if they are part of another word or number.
 
 ## Cold Weather ❓
 
-Titles for this category should include a word that describes cold weather such as “snow,” “ice,” blizzard,” “frozen,” etc.
+>Titles for this category should include a word that describes cold weather such as “snow,” “ice,” blizzard,” “frozen,” etc.
 
-## Peace ❓
+## Peace ✅
 
-Titles for this category need to include a word that describes peace: “peace,” “serenity,” “still,” “calm,” etc, even if it doesn’t directly mean “peace.”
+>Titles for this category need to include a word that describes peace: “peace,” “serenity,” “still,” “calm,” etc, even if it doesn’t directly mean “peace.”
+
+<figure>
+    <img src="awakening-roku-cover.jpg" alt="The Awakening of Roku cover" width="85">
+    <figcaption>
+        <cite>The Awakening of Roku</cite>, by Randy Ribay<br>  
+        Completed April 11, 2026
+    </figcaption>
+</figure>
 
 ## Pathways ❓
 
-Titles for this category need to include a words that are types of paths: “trail,” “road,” “avenue,” “sidewalk,” etc.
+>Titles for this category need to include a words that are types of paths: “trail,” “road,” “avenue,” “sidewalk,” etc.
 
-## Terrain ❓
+## Terrain ✅
 
-Titles for this category need to include a word for a type of topographic terrain or the name of a particular part of terrain, such as:
+>Titles for this category need to include a word for a type of topographic terrain or the name of a particular part of terrain, such as:
+>
+>- Mountains
+>- Hills
+>- Plains
+>- Plateaus
+>- Valleys
+>- Deserts
+>- Forests/Jungles
+>- Wetlands
+>- Coastal
+>- Glacial/Polar
 
-- Mountains
-- Hills
-- Plains
-- Plateaus
-- Valleys
-- Deserts
-- Forests/Jungles
-- Wetlands
-- Coastal
-- Glacial/Polar
+<figure>
+    <img src="river-of-stars-cover.jpg" alt="A River of Stars cover" width="85">
+    <figcaption>
+        <cite>A River of Stars</cite>, by Vanessa Hua<br>  
+        Completed June 8, 2026
+    </figcaption>
+</figure>
 
 ## Flower ❓
 
-Titles for this category need to include a type of flower or the word “flower.”
+>Titles for this category need to include a type of flower or the word “flower.”
