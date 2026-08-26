@@ -1,6 +1,7 @@
 {{ with .Get "url" }}
 	{{ $url := .}}
-	{{ $data := getJSON $url }}
+	{{ $json := page.Resources.Get $url }}
+	{{ $data := $json | transform.Unmarshal }}
 	<div class="bingocard">
 		{{ range $data.squares }}
 			{{ $row := . }}

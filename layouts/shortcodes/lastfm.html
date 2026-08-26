@@ -1,6 +1,16 @@
 {{ $apikey := getenv "HUGO_LASTFM_APIKEY" }}
 {{ $url := $apikey | printf "%s%s" "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=christortion&format=json&limit=6&api_key=" | printf "%s" }}
-{{ $data := getJSON $url }}
+{{ $data := dict }}
+{{ with try (resources.GetRemote $url) }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else with .Value }}
+    {{ $data = . | transform.Unmarshal }}
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $url }}
+  {{ end }}
+{{ end }}
+
 {{ if $data }}
     <ul class="lastfm">
         {{ range $data.recenttracks.track }}
