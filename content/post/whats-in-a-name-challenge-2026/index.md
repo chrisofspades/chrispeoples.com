@@ -20,9 +20,17 @@ In 2026, choose 6 books that have titles that contain:
 
 >Titles for this category need to include the word “six” or number “6” somewhere in the title, even if they are part of another word or number.
 
-## Cold Weather ❓
+## Cold Weather ✅
 
 >Titles for this category should include a word that describes cold weather such as “snow,” “ice,” blizzard,” “frozen,” etc.
+
+<figure>
+    <img src="storm-of-locusts-cover.jpg" alt="Storm of Locusts cover" width="85">
+    <figcaption>
+        <cite>Storm of Locusts</cite>, by Rebecca Roanhorse<br>  
+        Completed August 24, 2026
+    </figcaption>
+</figure>
 
 ## Peace ✅
 
@@ -63,6 +71,14 @@ In 2026, choose 6 books that have titles that contain:
     </figcaption>
 </figure>
 
-## Flower ❓
+## Flower ✅
 
 >Titles for this category need to include a type of flower or the word “flower.”
+
+<figure>
+    <img src="iron-garden-sutra-cover.jpg" alt="The Iron Garden Sutra cover" width="85">
+    <figcaption>
+        <cite>The Iron Garden Sutra</cite>, by A.D. Sui<br>  
+        Completed June 19, 2026
+    </figcaption>
+</figure>
