@@ -44,9 +44,17 @@ In 2026, choose 6 books that have titles that contain:
     </figcaption>
 </figure>
 
-## Pathways ❓
+## Pathways ✅
 
 >Titles for this category need to include a words that are types of paths: “trail,” “road,” “avenue,” “sidewalk,” etc.
+
+<figure>
+    <img src="other-side-of-the-road-cover.jpg" alt="The Other Side of the Road cover" width="85">
+    <figcaption>
+        <cite>The Other Side of the Road</cite>, by Andrea Bartz<br>  
+        Completed October 5, 2026
+    </figcaption>
+</figure>
 
 ## Terrain ✅
 
